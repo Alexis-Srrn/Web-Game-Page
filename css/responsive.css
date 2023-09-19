@@ -1,0 +1,168 @@
+:root{
+    --color-white: #fff;
+    --color-blue: #55AEF0;
+    --color-principal: #7B87E3;
+    --color-secundary: #F2B2F5;
+}
+
+
+@media (max-width: 1110px){
+
+    .march{
+        width: 152rem;
+    }
+
+    .header{
+        padding: 15px 3%;
+        transition: .2s;
+    }
+
+}
+
+@media (max-width: 1069px){
+
+    .march{
+        width: 147rem;
+    }
+
+    .icons{
+        padding: 0 7%;
+    }
+
+}
+
+
+@media (max-width: 1069px){
+    .march{
+        width: 140rem;
+    }
+
+    .march__link{
+        display: block;
+        margin-bottom: 4px;
+        width: 80%;
+        justify-content: center;
+    }
+
+    .down-icon{
+        display: none;
+    }
+}
+
+@media (max-width: 974px){
+    
+    .header{
+        padding: 10px 2%;
+        transition: .2s;
+    }
+
+    .march{
+        width: 133rem;
+    }
+
+    .icons {
+        padding: 0 5%;
+    }
+}
+
+@media (max-width: 920px){
+
+    .header{
+        padding: 5px 1%;
+        transition: .2s;
+    }
+    
+    .header{
+        padding: 10px 2%;
+        transition: .2s;
+    }
+
+    .march{
+        width: 128rem;
+    }
+
+}
+
+@media (max-width: 850px){
+
+    body{
+        overflow-y: scroll;
+    }
+
+    .header{
+        padding: 5px 1%;
+        transition: .2s;
+    }
+
+    .march{
+        flex-direction: column;
+    }
+
+    .march__text{
+        margin-top: 12rem;
+        margin-left: -55rem;
+    }
+
+    .march__img{
+        margin-left: -45rem;
+        margin-top: -8rem;
+    }
+
+    .march__link{
+        width: 60%;
+    }
+
+    #menu-icon{
+        display: block;
+    }
+
+
+    .header__navlist{
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 200px;
+        height: 40vh;
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 50px 20px;
+        border-radius: 20px;
+
+        border: solid 1px var(--color-white);
+        background: var(--color-principal);
+        backdrop-filter: blur(10px);
+        transition: all .55s ease;
+    }
+
+    .navlist__link{
+        display: block;
+        margin: 5px 0;
+        margin-left: 0;
+    }
+
+    .navlist__link:first-child{
+        margin-top: -2px;
+    }
+
+    .header__navlist.open{
+        right: 0;
+       
+    }
+
+    .icons{
+        display: none;
+    }
+
+}
+
+@media (max-width: 580px){
+    .march__text{
+        margin-left: -70rem;
+    }
+
+    .march__img{
+        margin-left: -55rem;
+    }
+}
